@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family:'Nunito';
+
+}
+body{
+    background-color: bisque;
+}
+p{
+    color: rgb(121, 0, 0);
+    font-weight: 800;
+    font-style: bold;
+}
+.infoInput{
+    margin: auto;
+    margin-top: 50px;
+    padding: 20px;
+    background:linear-gradient(to right,red,rgb(255, 77, 0));
+    border-radius: 32px;
+    border: none;
+    display: flex;
+    max-width: 60vw;
+    height: fit-content;
+}
+.infoInput .description p{
+    padding:20px;
+    width: fit-content;
+    border-radius: 20px;
+    background:linear-gradient(to right,rgb(245, 205, 0),rgb(255, 213, 0));
+}
+.infoInput .input{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+    margin: 10px;
+}
+select{
+    background-color: bisque;
+    font-weight: 500;
+    font-style: bold;
+    font-size: 17px;
+    border: none;
+    border-radius: 15px;
+    width: 150px;
+    padding: 15px;
+    cursor: pointer;
+
+}
+option{
+    cursor: pointer
+}
+button{
+    background-color: bisque;
+    cursor: pointer;
+    padding: 10px;
+    width: 90px;
+    border: none;
+    border-radius: 15px;
+}
+
+button:hover{
+    transition: color 3ms ease-in, background-color 1s ease-in-out;
+    background-color: rgb(121, 0, 0);
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+}
+
+.dice{
+    margin: auto;
+    margin-top: 10px;
+    padding: 30px;
+    border: dotted  rgb(245, 205, 0);
+    border-radius: 20px;
+    width: 60vw;
+    height: fit-content;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.dice img{
+
+    background-color: white;
+    min-height: 80px;
+    max-height: 80px;
+
+    min-height: 80px;
+    max-height: 80px;
+}
