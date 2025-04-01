@@ -6,13 +6,47 @@
 
 }
 body{
-    background-color: bisque;
+    background-color: white;
 }
 button{
-    background-color: bisque;
+    background-color: rgb(224, 143, 44);
     cursor: pointer;
     padding: 10px;
     width: 90px;
     border: none;
     border-radius: 15px;
+}
+input{
+    padding: 5px 10px;
+    border: none;
+    border-radius: 20px;
+}
+.inputClassInfo{
+    background-color: yellowgreen;
+    padding: 15px;
+    width: 400px;
+    height: 175px;
+    border-radius: 15px;
+    border: none;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 15px;
+}
+.inputs{
+    display: flex;
+    gap: 15px;
+    justify-content: space-around;
+}
+.AssignmentName input{
+    width: 150px;
+}
+.grade input{
+    width: 75px;
+}
+.classes select{
+    padding: 5px 10px;
+    border: none;
+    border-radius: 20px;  
 }
